@@ -1,5 +1,22 @@
 ### **UNIT-I: Introduction to Distributed Systems**
-
+* [1. <strong>Introduction to Distributed Systems</strong>:](#1-introduction-to-distributed-systems)
+         * [2. <strong>Characteristics of Distributed Systems</strong>:](#2-characteristics-of-distributed-systems)
+         * [3. <strong>Examples of Distributed Systems</strong>:](#3-examples-of-distributed-systems)
+         * [4. <strong>Advantages of Distributed Systems</strong>:](#4-advantages-of-distributed-systems)
+         * [5. <strong>System Models</strong>:](#5-system-models)
+         * [6. <strong>Networking and Internetworking</strong>:](#6-networking-and-internetworking)
+         * [7. <strong>Interprocess Communication (IPC)</strong>:](#7-interprocess-communication-ipc)
+         * [8. <strong>Distributed Objects and Remote Method Invocation (RMI)</strong>:](#8-distributed-objects-and-remote-method-invocation-rmi)
+         * [9. <strong>RPC (Remote Procedure Call)</strong>:](#9-rpc-remote-procedure-call)
+         * [10. <strong>Case Study – Java RMI</strong>:](#10-case-study--java-rmi)
+      * [<strong>UNIT-II: Synchronization</strong>](#unit-ii-synchronization)
+         * [1. <strong>Time and Global States</strong>:](#1-time-and-global-states)
+         * [2. <strong>Logical Clocks</strong>:](#2-logical-clocks)
+         * [3. <strong>Distributed Mutual Exclusion</strong>:](#3-distributed-mutual-exclusion)
+         * [4. <strong>Elections</strong>:](#4-elections)
+         * [5. <strong>Multicast Communication</strong>:](#5-multicast-communication)
+         * [6. <strong>Consensus Protocols</strong>:](#6-consensus-protocols)
+  
 #### 1. **Introduction to Distributed Systems**:
 1. **Definition**: A system with multiple independent computers working together.
 2. **Goal**: Share resources, increase speed, reliability, and scalability.
