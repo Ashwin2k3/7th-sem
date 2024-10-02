@@ -1,5 +1,20 @@
 
 Here are the points with keywords in bold at the beginning of each point:
+ * [<strong>UNIT-I: Understanding &amp; Overview of IPR Regime &amp; Patents</strong>](#unit-i-understanding--overview-of-ipr-regime--patents)
+         * [<strong>Introduction and Need for IPR</strong>](#introduction-and-need-for-ipr)
+         * [<strong>Types of Intellectual Property</strong>](#types-of-intellectual-property)
+         * [<strong>Rationale for Protection of IPR</strong>](#rationale-for-protection-of-ipr)
+         * [<strong>International Organizations, Agencies, and Treaties</strong>](#international-organizations-agencies-and-treaties)
+         * [<strong>IPR in India: Genesis, Development, and Impact</strong>](#ipr-in-india-genesis-development-and-impact)
+         * [<strong>Patents</strong>](#patents)
+      * [<strong>UNIT-II: Trademarks &amp; Copyrights</strong>](#unit-ii-trademarks--copyrights)
+         * [<strong>Trademarks: Rights, Purpose, and Function</strong>](#trademarks-rights-purpose-and-function)
+         * [<strong>Trademark Registration and Acquisition</strong>](#trademark-registration-and-acquisition)
+         * [<strong>Trademark Protection &amp; Registration Process</strong>](#trademark-protection--registration-process)
+         * [<strong>Copyrights: Rights and Protection</strong>](#copyrights-rights-and-protection)
+         * [<strong>Infringement and Protection under Copyright Act</strong>](#infringement-and-protection-under-copyright-act)
+         * [<strong>Distinction between Related Rights and Copyright</strong>](#distinction-between-related-rights-and-copyright)
+         * [<strong>Celebrity Rights &amp; Plagiarism</strong>](#celebrity-rights--plagiarism)
 
 ### **UNIT-I: Understanding & Overview of IPR Regime & Patents**
 
