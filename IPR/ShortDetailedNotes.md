@@ -1,3 +1,31 @@
+
+      * [<strong>Understanding &amp; Overview of IPR Regime &amp; Patents</strong>](#understanding--overview-of-ipr-regime--patents)
+      * [<strong>Need for Intellectual Property Rights</strong>](#need-for-intellectual-property-rights)
+      * [<strong>Types of Intellectual Property</strong>](#types-of-intellectual-property)
+      * [<strong>Rationale for Protection of IPR</strong>](#rationale-for-protection-of-ipr)
+      * [<strong>International Organizations, Agencies, and Treaties</strong>](#international-organizations-agencies-and-treaties)
+      * [<strong>Importance of Intellectual Property Rights</strong>](#importance-of-intellectual-property-rights)
+      * [<strong>IPR in India: Genesis and Development</strong>](#ipr-in-india-genesis-and-development)
+      * [<strong>Impact of IPR on Development, Health, Agriculture, and Genetic Resources in India</strong>](#impact-of-ipr-on-development-health-agriculture-and-genetic-resources-in-india)
+      * [<strong>Patents: Definition of TRIPS</strong>](#patents-definition-of-trips)
+      * [<strong>Kind of Inventions Protected by Patent</strong>](#kind-of-inventions-protected-by-patent)
+      * [<strong>Process and Product Patent</strong>](#process-and-product-patent)
+      * [<strong>Double Patent</strong>](#double-patent)
+      * [<strong>Legal Requirements for Patents</strong>](#legal-requirements-for-patents)
+      * [<strong>Patent Application Process</strong>](#patent-application-process)
+      * [<strong>Drafting and Filing of a Patent</strong>](#drafting-and-filing-of-a-patent)
+      * [<strong>Types of Patent Applications</strong>](#types-of-patent-applications)
+      * [<strong>Patent Specification and Claim</strong>](#patent-specification-and-claim)
+      * [<strong>Management of IP Assets and IP Portfolio</strong>](#management-of-ip-assets-and-ip-portfolio)
+      * [<strong>Layers of International Patent System</strong>](#layers-of-international-patent-system)
+* [UNIT II](#unit-ii)
+      * [<strong>Trademarks</strong>](#trademarks)
+      * [<strong>Copyrights</strong>](#copyrights)
+      * [<strong>Understanding &amp; Overview of IPR Regime &amp; Patents</strong>](#understanding--overview-of-ipr-regime--patents-1)
+      * [<strong>Patents</strong>](#patents)
+      * [<strong>Trademarks</strong>](#trademarks-1)
+      * [<strong>Copyrights</strong>](#copyrights-1)
+
 Here’s the breakdown of each topic with 10 points, where each point contains 2 sub-points:
 
 ---
