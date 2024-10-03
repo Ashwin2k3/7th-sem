@@ -20,7 +20,7 @@
       * [Access the Fit of Multiple Linear Regression Model](#access-the-fit-of-multiple-linear-regression-model)
       * [Feature Selection and Dimensionality Reduction](#feature-selection-and-dimensionality-reduction)
 
-### Introduction to Machine Learning
+# Introduction to Machine Learning
 
 
 1. **Machine Learning**: A branch of artificial intelligence that enables systems to **learn** and improve from experience without being explicitly programmed.
@@ -34,7 +34,7 @@
 9. **Types of Data**: Data can be **structured** (tabular format) or **unstructured** (text, images) and influences the model choice.
 10. **Bias-Variance Tradeoff**: A key challenge in machine learning to balance between **bias (error due to assumptions)** and **variance (error due to model sensitivity)**.
 
-### Terminologies in Machine Learning
+# Terminologies in Machine Learning
 
 1. **Algorithm**: A **set of rules** or instructions given to a machine to help it learn patterns from data.
 2. **Model**: A representation of a **hypothesis** formed by training data, which predicts outcomes based on new inputs.
@@ -49,7 +49,7 @@
 
 ---
 
-### Perspectives and Issues in Machine Learning
+# Perspectives and Issues in Machine Learning
 
 1. **Scalability**: How well a machine learning system can **handle increasing amounts of data** or complexity without degrading performance.
 2. **Interpretability**: The ability to **explain or understand** the decisions made by a machine learning model.
@@ -63,7 +63,7 @@
 10. **Data Privacy**: Using personal data for training can raise concerns regarding **privacy** and **data security** if not handled properly.
 
 
-### Applications of Machine Learning
+# Applications of Machine Learning
 1. **Healthcare**: Used for **predictive analytics**, diagnosis, and treatment recommendations.
 2. **Finance**: Helps in **fraud detection**, credit scoring, and algorithmic trading.
 3. **Retail**: Drives **recommendation engines** and customer segmentation.
@@ -75,7 +75,7 @@
 9. **Manufacturing**: Used for **predictive maintenance** and process automation.
 10. **Marketing**: Enhances **targeted advertising** and customer behavior predictions.
 
-### Types of Machine Learning
+# Types of Machine Learning
 1. **Supervised Learning**: Learning from labeled data, used in **classification** and **regression**.
 2. **Unsupervised Learning**: Learning from unlabeled data, used in **clustering** and **association** tasks.
 3. **Semi-Supervised Learning**: Combines labeled and unlabeled data to improve learning efficiency.
@@ -87,7 +87,7 @@
 9. **Deep Learning**: A subset of ML that uses **neural networks** for tasks like image recognition.
 10. **Multi-Task Learning**: Simultaneously trains models on multiple related tasks to improve generalization.
 
-### Basic Linear Algebra in Machine Learning Techniques
+# Basic Linear Algebra in Machine Learning Techniques
 1. **Vectors**: Represent data points in **multi-dimensional space**.
 2. **Matrices**: Represent datasets and enable transformations like **rotation**, **scaling**, and **translation**.
 3. **Eigenvalues & Eigenvectors**: Help in **dimensionality reduction** (PCA).
@@ -99,7 +99,7 @@
 9. **Orthogonal Vectors**: Indicate **independence** between features.
 10. **Gradient Descent**: Uses linear algebra for **optimization** in training models.
 
-### Dataset and Its Types
+# Dataset and Its Types
 1. **Structured Data**: Organized in rows and columns (e.g., databases, spreadsheets).
 2. **Unstructured Data**: Lacks a predefined format (e.g., text, images, videos).
 3. **Semi-Structured Data**: Data with some organizational structure (e.g., JSON, XML).
@@ -111,7 +111,7 @@
 9. **Text Data**: Unstructured data that needs to be tokenized for model input.
 10. **Sensor Data**: Generated from IoT devices, typically used in predictive maintenance.
 
-### Data Preprocessing
+# Data Preprocessing
 1. **Cleaning**: Handling **missing data**, removing duplicates, and correcting errors.
 2. **Scaling**: Rescaling features so they have a **common range** (e.g., normalization, standardization).
 3. **Encoding**: Converting categorical data into numerical format (e.g., **one-hot encoding**).
@@ -123,7 +123,7 @@
 9. **Normalization**: Adjusting values measured on different scales to a common scale.
 10. **Shuffling**: Randomizing the order of data points to avoid **bias**.
 
-### Bias and Variance in Machine Learning
+# Bias and Variance in Machine Learning
 1. **Bias**: Error due to overly simplistic models, leading to underfitting.
 2. **Variance**: Error due to models being overly complex, leading to overfitting.
 3. **Bias-Variance Tradeoff**: Balancing bias and variance to minimize overall error.
@@ -135,7 +135,7 @@
 9. **Ensemble Methods**: Combining multiple models to reduce both bias and variance.
 10. **Regularization**: Adding constraints to the model to reduce variance without increasing bias.
 
-### Function Approximation
+# Function Approximation
 1. **Function Approximation**: Estimating a function that best describes the relationship between inputs and outputs.
 2. **Linear Models**: Approximate the function as a **linear combination** of features.
 3. **Non-linear Models**: Use non-linear combinations of features for better approximation.
@@ -147,7 +147,7 @@
 9. **Overfitting in Function Approximation**: Occurs when the approximation is too specific to the training data.
 10. **Underfitting in Function Approximation**: Occurs when the approximation is too simple to capture patterns.
 
-### Overfitting in Machine Learning
+# Overfitting in Machine Learning
 1. **Overfitting**: When a model performs well on training data but poorly on unseen data.
 2. **Complexity**: Overly complex models with too many parameters tend to overfit.
 3. **Noise**: Overfitting occurs when the model learns random noise in the training data.
@@ -159,7 +159,7 @@
 9. **Early Stopping**: Stops training when the model starts to overfit.
 10. **Reducing Overfitting**: Use simpler models, gather more data, or apply regularization techniques.
 
-### Regression Analysis in Machine Learning
+# Regression Analysis in Machine Learning
 
 1. **Introduction to Regression**: Regression is a technique used to **model relationships** between dependent and independent variables.
 2. **Terminologies**: Key terms include **dependent variable**, **independent variable**, **slope**, and **intercept**.
@@ -172,7 +172,7 @@
 9. **Applications**: Used in **forecasting**, **risk management**, and **time series analysis**.
 10. **Assumptions**: Includes assumptions like **linear relationship**, **normal distribution of errors**, and **constant variance**.
 
-### Types of Regression
+# Types of Regression
 
 1. **Linear Regression**: Models the relationship between two variables by fitting a **linear equation** to the observed data.
 2. **Multiple Regression**: Involves more than one **independent variable** for prediction.
@@ -185,7 +185,7 @@
 9. **Stepwise Regression**: Automatically selects **significant variables** by adding or removing them step by step.
 10. **Principal Components Regression**: Uses **principal component analysis (PCA)** to reduce dimensionality before performing regression.
 
-### Logistic Regression and Simple Linear Regression
+# Logistic Regression and Simple Linear Regression
 
 1. **Logistic Regression**: A **classification algorithm** used to predict binary outcomes (e.g., pass/fail, yes/no).
 2. **Sigmoid Function**: Logistic regression uses a **sigmoid function** to model the probability of the binary outcome.
@@ -198,7 +198,7 @@
 9. **Correlation**: Measures how strongly the independent variable is related to the dependent variable.
 10. **Use Cases**: Commonly used in **sales forecasting**, **risk analysis**, and **biostatistics**.
 
-### Ordinary Least Square (OLS) Estimation
+# Ordinary Least Square (OLS) Estimation
 
 1. **OLS Definition**: A method used to estimate the **parameters** of a linear regression model.
 2. **Objective**: Minimizes the **sum of squared errors** (residuals) between the observed and predicted values.
@@ -211,7 +211,7 @@
 9. **Applications**: Used in **econometrics**, **finance**, and **biostatistics**.
 10. **Model Evaluation**: OLS models can be evaluated using metrics like **R-squared** and **adjusted R-squared**.
 
-### Properties of Least-Squares Estimators
+# Properties of Least-Squares Estimators
 
 1. **Unbiasedness**: The least-square estimators are **unbiased**, meaning the expected value of the estimate equals the true parameter value.
 2. **Efficiency**: These estimators have **minimum variance** among all unbiased linear estimators.
@@ -224,7 +224,7 @@
 9. **Sum of Residuals**: In least squares, the **sum of residuals** is always zero.
 10. **Model Significance**: The statistical significance of a model can be tested using **t-tests** and **F-tests** on the coefficients.
 
-### Interval Estimation in Simple Linear Regression
+# Interval Estimation in Simple Linear Regression
 
 1. **Confidence Intervals**: Provide a **range of values** for the estimated coefficients within which the true value is expected to fall.
 2. **Prediction Intervals**: Used to predict the range within which a **new observation** will fall.
@@ -237,7 +237,7 @@
 9. **Applications**: Used in forecasting and estimating the uncertainty around model predictions.
 10. **Impact of Sample Size**: Larger sample sizes lead to **narrower** intervals, indicating more precise estimates.
 
-### Residuals in Multiple Linear Regression
+# Residuals in Multiple Linear Regression
 
 1. **Residuals Definition**: Residuals are the **difference** between observed values and predicted values.
 2. **Analysis**: Residual analysis helps to check the **assumptions** of the regression model.
@@ -252,7 +252,7 @@
 
 I'll continue the remaining points for Unit II in subsequent parts.
 
-### F-statistic and Significance F
+# F-statistic and Significance F
 
 1. **F-statistic**: Measures the overall **significance** of the regression model.
 2. **Use of F-test**: Helps determine whether the model provides a **better fit** than a model with no predictors.
@@ -265,7 +265,7 @@ I'll continue the remaining points for Unit II in subsequent parts.
 9. **Model Strength**: Higher F-statistic values suggest a **stronger relationship** between predictors and the outcome.
 10. **Application**: Used to determine the **overall utility** of multiple linear regression models.
 
-### Coefficient P-values
+# Coefficient P-values
 
 1. **P-values**: Measure the **statistical significance** of each individual coefficient in the regression model.
 2. **Null Hypothesis**: P-values test the hypothesis that the coefficient of a predictor is **zero**.
@@ -278,7 +278,7 @@ I'll continue the remaining points for Unit II in subsequent parts.
 9. **T-statistic**: P-values are based on the **t-statistic**, calculated for each predictor.
 10. **Confidence Intervals**: The p-value determines whether the **confidence interval** of the coefficient includes zero, affecting significance.
 
-### Access the Fit of Multiple Linear Regression Model
+# Access the Fit of Multiple Linear Regression Model
 
 1. **R-squared**: Represents the **proportion of variance** in the dependent variable explained by the independent variables.
 2. **Adjusted R-squared**: Adjusts for the **number of predictors** in the model, making it more reliable for multiple regression.
@@ -291,7 +291,7 @@ I'll continue the remaining points for Unit II in subsequent parts.
 9. **Residual Plots**: Used to assess whether the **errors** (residuals) are randomly distributed, which is essential for a good fit.
 10. **F-test for Overall Fit**: Used to assess whether the **overall regression model** is a good fit for the data.
 
-### Feature Selection and Dimensionality Reduction
+# Feature Selection and Dimensionality Reduction
 
 1. **Feature Selection**: The process of selecting the **most relevant features** to improve the performance of the model.
 2. **Principal Component Analysis (PCA)**: A dimensionality reduction technique that transforms features into **principal components** to capture the most variance.
