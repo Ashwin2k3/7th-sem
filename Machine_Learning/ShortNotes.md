@@ -1,4 +1,3 @@
-<h3 tabindex="-1" class="heading-element" dir="auto">Introduction to Machine Learning](/Ashwin2k3/7th-sem/tree/main)
       * [Terminologies in Machine Learning](#terminologies-in-machine-learning)
       * [Perspectives and Issues in Machine Learning](#perspectives-and-issues-in-machine-learning)
       * [Applications of Machine Learning](#applications-of-machine-learning)
