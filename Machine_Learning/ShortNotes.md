@@ -4,6 +4,10 @@
 * [Perspectives and Issues in Machine Learning](#perspectives-and-issues-in-machine-learning)
 * [Applications of Machine Learning](#applications-of-machine-learning)
 * [Types of Machine Learning](#types-of-machine-learning)
+      * [Supervised Learning](#supervised-learning)
+      * [Unsupervised Learning](#unsupervised-learning)
+      * [Semi-Supervised Learning](#semi-supervised-learning)
+      * [Review of Probability](#review-of-probability)
 * [Basic Linear Algebra in Machine Learning Techniques](#basic-linear-algebra-in-machine-learning-techniques)
 * [Dataset and Its Types](#dataset-and-its-types)
 * [Data Preprocessing](#data-preprocessing)
@@ -21,6 +25,12 @@
 * [Coefficient P-values](#coefficient-p-values)
 * [Access the Fit of Multiple Linear Regression Model](#access-the-fit-of-multiple-linear-regression-model)
 * [Feature Selection and Dimensionality Reduction](#feature-selection-and-dimensionality-reduction)
+      * [R-Squared](#r-squared)
+      * [Standard Error](#standard-error)
+      * [Feature Selection and Dimensionality Reduction](#feature-selection-and-dimensionality-reduction-1)
+      * [PCA (Principal Component Analysis)](#pca-principal-component-analysis)
+      * [LDA (Linear Discriminant Analysis)](#lda-linear-discriminant-analysis)
+      * [ICA (Independent Component Analysis)](#ica-independent-component-analysis)
 # Introduction to Machine Learning
 
 
