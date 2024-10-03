@@ -1,4 +1,28 @@
+<h3 tabindex="-1" class="heading-element" dir="auto">Introduction to Machine Learning](/Ashwin2k3/7th-sem/tree/main)
+      * [Terminologies in Machine Learning](#terminologies-in-machine-learning)
+      * [Perspectives and Issues in Machine Learning](#perspectives-and-issues-in-machine-learning)
+      * [Applications of Machine Learning](#applications-of-machine-learning)
+      * [Types of Machine Learning](#types-of-machine-learning)
+      * [Basic Linear Algebra in Machine Learning Techniques](#basic-linear-algebra-in-machine-learning-techniques)
+      * [Dataset and Its Types](#dataset-and-its-types)
+      * [Data Preprocessing](#data-preprocessing)
+      * [Bias and Variance in Machine Learning](#bias-and-variance-in-machine-learning)
+      * [Function Approximation](#function-approximation)
+      * [Overfitting in Machine Learning](#overfitting-in-machine-learning)
+      * [Regression Analysis in Machine Learning](#regression-analysis-in-machine-learning)
+      * [Types of Regression](#types-of-regression)
+      * [Logistic Regression and Simple Linear Regression](#logistic-regression-and-simple-linear-regression)
+      * [Ordinary Least Square (OLS) Estimation](#ordinary-least-square-ols-estimation)
+      * [Properties of Least-Squares Estimators](#properties-of-least-squares-estimators)
+      * [Interval Estimation in Simple Linear Regression](#interval-estimation-in-simple-linear-regression)
+      * [Residuals in Multiple Linear Regression](#residuals-in-multiple-linear-regression)
+      * [F-statistic and Significance F](#f-statistic-and-significance-f)
+      * [Coefficient P-values](#coefficient-p-values)
+      * [Access the Fit of Multiple Linear Regression Model](#access-the-fit-of-multiple-linear-regression-model)
+      * [Feature Selection and Dimensionality Reduction](#feature-selection-and-dimensionality-reduction)
+
 ### Introduction to Machine Learning
+
 
 1. **Machine Learning**: A branch of artificial intelligence that enables systems to **learn** and improve from experience without being explicitly programmed.
 2. **Key Terminologies**: Terms like **algorithm**, **model**, **feature**, **label**, and **training** are fundamental to understanding machine learning processes.
