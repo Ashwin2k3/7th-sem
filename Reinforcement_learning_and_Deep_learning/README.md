@@ -1,28 +1,27 @@
-## Table of Contents
+# UNIT - I
 
-### UNIT - I
-- [Introduction to Reinforcement Learning and Its Terms](#introduction-to-reinforcement-learning-and-its-terms)
-- [Features and Elements of Reinforcement Learning (RL)](#1-features-and-elements-of-reinforcement-learning-rl)
-- [Defining RL Framework and Markov Decision Process (MDP)](#2-defining-rl-framework-and-markov-decision-process-mdp)
-- [Policies](#3-policies)
-- [Value Functions and Bellman Equations](#4-value-functions-and-bellman-equations)
-- [Exploration vs. Exploitation](#5-exploration-vs-exploitation)
-- [Code Standards and Libraries Used in RL (Python/Keras/TensorFlow), Tabular Methods, and Q-networks](#6-code-standards-and-libraries-used-in-rl-pythonkerastensorflow-tabular-methods-and-q-networks)
-- [Planning through the use of Dynamic Programming and Monte Carlo](#7-planning-through-the-use-of-dynamic-programming-and-monte-carlo)
-- [Temporal-Difference (TD) Learning Methods (TD(0), SARSA, Q-Learning)](#8-temporal-difference-td-learning-methods-td0-sarsa-q-learning)
-- [Deep Q-networks (DQN, DDQN, Dueling DQN, Prioritized Experience Replay)](#9-deep-q-networks-dqn-ddqn-dueling-dqn-prioritized-experience-replay)
+* [Introduction to Reinforcement Learning and Its Terms](#introduction-to-reinforcement-learning-and-its-terms)
+* [1. Features and Elements of Reinforcement Learning (RL)](#1-features-and-elements-of-reinforcement-learning-rl)
+* [2. Defining RL Framework and Markov Decision Process (MDP)](#2-defining-rl-framework-and-markov-decision-process-mdp)
+* [3. Policies](#3-policies)
+* [4. Value Functions and Bellman Equations](#4-value-functions-and-bellman-equations)
+* [5. Exploration vs. Exploitation](#5-exploration-vs-exploitation)
+* [6. Code Standards and Libraries Used in RL (Python/Keras/TensorFlow), Tabular Methods, and Q-networks](#6-code-standards-and-libraries-used-in-rl-pythonkerastensorflow-tabular-methods-and-q-networks)
+* [7. Planning through the use of Dynamic Programming and Monte Carlo](#7-planning-through-the-use-of-dynamic-programming-and-monte-carlo)
+* [8. Temporal-Difference (TD) Learning Methods (TD(0), SARSA, Q-Learning)](#8-temporal-difference-td-learning-methods-td0-sarsa-q-learning)
+* [9. Deep Q-networks (DQN, DDQN, Dueling DQN, Prioritized Experience Replay)](#9-deep-q-networks-dqn-ddqn-dueling-dqn-prioritized-experience-replay)
 
-### UNIT - II
-- [Policy Optimization: Introduction to Policy-Based Methods](#1-policy-optimization-introduction-to-policy-based-methods)
-- [Vanilla Policy Gradient](#2-vanilla-policy-gradient)
-- [REINFORCE Algorithm and Stochastic Policy Search](#3-reinforce-algorithm-and-stochastic-policy-search)
-- [Actor-Critic Methods (A2C, A3C)](#4-actor-critic-methods-a2c-a3c)
-- [Advanced Policy Gradient (PPO, TRPO, DDPG)](#5-advanced-policy-gradient-ppo-trpo-ddpg)
-- [Model-Based RL](#6-model-based-rl)
-- [Recent Advances and Applications: Meta-Learning, Multi-Agent Reinforcement Learning](#7-recent-advances-and-applications-meta-learning-multi-agent-reinforcement-learning)
-- [Partially Observable Markov Decision Process (POMDP)](#8-partially-observable-markov-decision-process-pomdp)
-- [Applying RL for Real-World Problems](#9-applying-rl-for-real-world-problems)
+# UNIT - II
 
+* [1. Policy Optimization: Introduction to Policy-Based Methods](#1-policy-optimization-introduction-to-policy-based-methods)
+* [2. Vanilla Policy Gradient](#2-vanilla-policy-gradient)
+* [3. REINFORCE Algorithm and Stochastic Policy Search](#3-reinforce-algorithm-and-stochastic-policy-search)
+* [4. Actor-Critic Methods (A2C, A3C)](#4-actor-critic-methods-a2c-a3c)
+* [5. Advanced Policy Gradient (PPO, TRPO, DDPG)](#5-advanced-policy-gradient-ppo-trpo-ddpg)
+* [6. Model-Based RL](#6-model-based-rl)
+* [7. Recent Advances and Applications: Meta-Learning, Multi-Agent Reinforcement Learning](#7-recent-advances-and-applications-meta-learning-multi-agent-reinforcement-learning)
+* [8. Partially Observable Markov Decision Process (POMDP)](#8-partially-observable-markov-decision-process-pomdp)
+* [9. Applying RL for Real-World Problems](#9-applying-rl-for-real-world-problems)
 
 # **UNIT - I**
 ### Introduction to Reinforcement Learning and Its Terms
