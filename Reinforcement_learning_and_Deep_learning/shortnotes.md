@@ -1,3 +1,25 @@
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><strong>UNIT - I</strong>](/Ashwin2k3/7th-sem/tree/main)
+      * [Introduction to Reinforcement Learning and Its Terms](#introduction-to-reinforcement-learning-and-its-terms)
+      * [<strong>1. Features and Elements of Reinforcement Learning (RL):</strong>](#1-features-and-elements-of-reinforcement-learning-rl)
+      * [<strong>2. Defining RL Framework and Markov Decision Process (MDP):</strong>](#2-defining-rl-framework-and-markov-decision-process-mdp)
+      * [<strong>3. Policies:</strong>](#3-policies)
+      * [<strong>4. Value Functions and Bellman Equations:</strong>](#4-value-functions-and-bellman-equations)
+      * [<strong>4. Exploration vs. Exploitation:</strong>](#4-exploration-vs-exploitation)
+      * [1. Code Standards and Libraries Used in RL (Python/Keras/TensorFlow), Tabular Methods, and Q-networks:](#1-code-standards-and-libraries-used-in-rl-pythonkerastensorflow-tabular-methods-and-q-networks)
+      * [2. Planning through the use of Dynamic Programming and Monte Carlo:](#2-planning-through-the-use-of-dynamic-programming-and-monte-carlo)
+      * [3. Temporal-Difference (TD) Learning Methods (TD(0), SARSA, Q-Learning):](#3-temporal-difference-td-learning-methods-td0-sarsa-q-learning)
+      * [4. Deep Q-networks (DQN, DDQN, Dueling DQN, Prioritized Experience Replay):](#4-deep-q-networks-dqn-ddqn-dueling-dqn-prioritized-experience-replay)
+* [<strong>UNIT - 2</strong>](#unit---2)
+      * [1. Policy Optimization: Introduction to Policy-Based Methods](#1-policy-optimization-introduction-to-policy-based-methods)
+      * [2. Vanilla Policy Gradient](#2-vanilla-policy-gradient)
+      * [3. REINFORCE Algorithm and Stochastic Policy Search](#3-reinforce-algorithm-and-stochastic-policy-search)
+      * [4. Actor-Critic Methods (A2C, A3C)](#4-actor-critic-methods-a2c-a3c)
+      * [5. Advanced Policy Gradient (PPO, TRPO, DDPG)](#5-advanced-policy-gradient-ppo-trpo-ddpg)
+      * [6. Model-Based RL](#6-model-based-rl)
+      * [7. Recent Advances and Applications: Meta-Learning, Multi-Agent Reinforcement Learning](#7-recent-advances-and-applications-meta-learning-multi-agent-reinforcement-learning)
+      * [8. Partially Observable Markov Decision Process (POMDP)](#8-partially-observable-markov-decision-process-pomdp)
+      * [9. Applying RL for Real-World Problems](#9-applying-rl-for-real-world-problems)
+
 
 # **UNIT - I**
 ### Introduction to Reinforcement Learning and Its Terms
