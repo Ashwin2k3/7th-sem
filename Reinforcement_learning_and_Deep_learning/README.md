@@ -1,3 +1,88 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 16 16"
+  width="16"
+  height="16"
+  fill="currentColor"
+  style="display:inline-block; user-select:none; vertical-align:text-bottom; overflow:visible"
+>
+  <path d="M5.75 2.5h8.5a.75.75 0 0 1 0 1.5h-8.5a.75.75 0 0 1 0-1.5Zm0 5h8.5a.75.75 0 0 1 0 1.5h-8.5a.75.75 0 0 1 0-1.5Zm0 5h8.5a.75.75 0 0 1 0 1.5h-8.5a.75.75 0 0 1 0-1.5ZM2 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-6a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM2 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path>
+</svg>
+</button>
+</div>
+<div class="Box-sc-g0xbh4-0 QkQOb js-snippet-clipboard-copy-unpositioned" data-hpc="true">
+  <article class="markdown-body entry-content container-lg" itemprop="text">
+    <div class="markdown-heading" dir="auto">
+      <h1 tabindex="-1" class="heading-element" dir="auto">
+        <strong>UNIT - I</strong>
+      </h1>
+      <ul>
+        <li>
+          <a href="#introduction-to-reinforcement-learning-and-its-terms">Introduction to Reinforcement Learning and Its Terms</a>
+        </li>
+        <li>
+          <strong><a href="#1-features-and-elements-of-reinforcement-learning-rl">1. Features and Elements of Reinforcement Learning (RL):</a></strong>
+        </li>
+        <li>
+          <strong><a href="#2-defining-rl-framework-and-markov-decision-process-mdp">2. Defining RL Framework and Markov Decision Process (MDP):</a></strong>
+        </li>
+        <li>
+          <strong><a href="#3-policies">3. Policies:</a></strong>
+        </li>
+        <li>
+          <strong><a href="#4-value-functions-and-bellman-equations">4. Value Functions and Bellman Equations:</a></strong>
+        </li>
+        <li>
+          <strong><a href="#4-exploration-vs-exploitation">5. Exploration vs. Exploitation:</a></strong>
+        </li>
+        <li>
+          <strong><a href="#1-code-standards-and-libraries-used-in-rl-pythonkerastensorflow-tabular-methods-and-q-networks">1. Code Standards and Libraries Used in RL (Python/Keras/TensorFlow), Tabular Methods, and Q-networks:</a></strong>
+        </li>
+        <li>
+          <strong><a href="#2-planning-through-the-use-of-dynamic-programming-and-monte-carlo">2. Planning through the use of Dynamic Programming and Monte Carlo:</a></strong>
+        </li>
+        <li>
+          <strong><a href="#3-temporal-difference-td-learning-methods-td0-sarsa-q-learning">3. Temporal-Difference (TD) Learning Methods (TD(0), SARSA, Q-Learning):</a></strong>
+        </li>
+        <li>
+          <strong><a href="#4-deep-q-networks-dqn-ddqn-dueling-dqn-prioritized-experience-replay">4. Deep Q-networks (DQN, DDQN, Dueling DQN, Prioritized Experience Replay):</a></strong>
+        </li>
+      </ul>
+    </div>
+    <div class="markdown-heading" dir="auto">
+      <strong>UNIT - 2</strong>
+      <ul>
+        <li>
+          <a href="#1-policy-optimization-introduction-to-policy-based-methods">1. Policy Optimization: Introduction to Policy-Based Methods</a>
+        </li>
+        <li>
+          <a href="#2-vanilla-policy-gradient">2. Vanilla Policy Gradient</a>
+        </li>
+        <li>
+          <a href="#3-reinforce-algorithm-and-stochastic-policy-search">3. REINFORCE Algorithm and Stochastic Policy Search</a>
+        </li>
+        <li>
+          <a href="#4-actor-critic-methods-a2c-a3c">4. Actor-Critic Methods (A2C, A3C)</a>
+        </li>
+        <li>
+          <a href="#5-advanced-policy-gradient-ppo-trpo-ddpg">5. Advanced Policy Gradient (PPO, TRPO, DDPG)</a>
+        </li>
+        <li>
+          <a href="#6-model-based-rl">6. Model-Based RL</a>
+        </li>
+        <li>
+          <a href="#7-recent-advances-and-applications-meta-learning-multi-agent-reinforcement-learning">7. Recent Advances and Applications: Meta-Learning, Multi-Agent Reinforcement Learning</a>
+        </li>
+        <li>
+          <a href="#8-partially-observable-markov-decision-process-pomdp">8. Partially Observable Markov Decision Process (POMDP)</a>
+        </li>
+        <li>
+          <a href="#9-applying-rl-for-real-world-problems">9. Applying RL for Real-World Problems</a>
+        </li>
+      </ul>
+    </div>
+  </article>
+</div>
 
 
 # **UNIT - I**
