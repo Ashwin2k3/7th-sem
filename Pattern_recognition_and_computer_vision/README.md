@@ -389,9 +389,7 @@ This structured format provides clarity on key concepts and applications in mach
 ### Bayes' Theorem
 1. **Definition**: A fundamental theorem that describes the probability of an event, based on prior knowledge of conditions related to the event.
 2. **Conditional Probability**: It allows for updating the probability of a hypothesis as more evidence or data becomes available.
-3. **Formula**: P(A|B) = [P(B|A) * P(A)] / P(B), where P(A) is the prior probability
-
-, and P(B|A) is the likelihood.
+3. **Formula**: P(A|B) = [P(B|A) * P(A)] / P(B), where P(A) is the prior probability, and P(B|A) is the likelihood.
 4. **Naive Bayes**: An algorithm based on Bayes' Theorem, widely used in classification problems like spam detection.
 5. **Prior and Posterior**: Prior represents initial belief before data; the posterior is updated belief after data is considered.
 6. **Likelihood**: Represents the probability of the observed data under a particular hypothesis.
