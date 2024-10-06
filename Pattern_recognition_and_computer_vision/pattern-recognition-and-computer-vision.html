@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Pattern Recognition and Computer vision</title>
+<meta name="cht-zoom" content="0.6">
+<meta name="cht-line-height" content="0.9">
+<meta name="cht-template" content="">
+<meta name="cht-size" content="5.5,8.5">
+<meta name="cht-level" content="">
+<meta name="cht-subject" content="">
+<style>
+
+  html, body{
+    font-family:"Segoe UI",Arial,Verdana,"Trebuchet MS",Helvetica,Tahoma,Verdana;
+    text-rendering: optimizelegibility;
+    margin:0;
+    padding:0;
+    }
+
+  body
+{
+    font-size: 10pt;
+    text-align: left;
+   text-align: start;
+        color:#222;
+}
+
+ img
+{
+    vertical-align: middle;
+}
+
+p {
+    margin: 5px auto;
+}
+
+table, table th,table td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table caption
+{
+    font-weight: bold;
+    font-size:1.2em;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    margin:8px auto;
+    font-family:"Segoe UI",Arial,Verdana,"Trebuchet MS",Helvetica,Tahoma,Verdana;
+}
+
+abbr
+{
+    font-style:italic;
+}
+
+blockquote
+{
+    margin: 1em 4em;
+    padding: 5px 10px;
+}
+
+a, a:visited {
+    color:#444;
+    text-decoration: underline;
+}
+
+h1 {
+    color:#0E4E9B;
+    font-size:18pt;
+}
+
+h2 {
+    color:#858D92;
+    font-size:13.5pt;
+}
+
+h3 {
+    color:#555;
+    font-size:12pt;
+}
+
+code, blockquote {
+    background-color: #fffbdb;
+    font-size: 90%;
+    border-radius: 8px;
+}
+
+table
+{
+    background: #fffbdb;
+}
+
+table, table td, table th
+{
+    border: 1px solid #C0C090;
+}
+
+table th
+{
+    background:#EFE69A;
+}
+
+
+</style>
+</head>
+<body>
+<div style="font-family: Calibri,Arial;font-size: 10pt;text-align: left;text-rendering: optimizelegibility;position: relative;box-sizing: border-box;padding: 3px;overflow: visible;page-break-inside: avoid;word-wrap: break-word;border-collapse: collapse;text-overflow: ellipsis;line-height: 0.9;background: white;width: 5.5cm;height: 8.5cm;border: 1px solid black"><div style="float: right;z-index: 0;color: darkgray;font-size: 40px;line-height: 0.7">1</div><div style="line-height: 0.9;transform-origin: 0 0;z-index: 2;position: relative;zoom: 0.6" class="doc-page"><div class="page" title="Page 2">
+<div class="section" style="background-color: #ffffff;">
+<div class="layoutArea">
+<div class="column">
+<ol style="list-style-type: none;" start="0">
+<li>
+<p><span style="font-size: 13pt; font-family: ArialMT;">Bayesian Methods </span></p>
+</li>
+</ol>
+<p><span style="font-size: 9pt; font-family: ArialMT;">1. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Foundation</span><span style="font-size: 9pt; font-family: ArialMT;">: Bayesian methods R based on Bayes' theorem, updating probabilities with new evidence. </span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="page" title="Page 3">
+<div class="section" style="background-color: #ffffff;">
+<div class="layoutArea">
+<div class="column">
+<p><span style="font-size: 9pt; font-family: ArialMT;">2. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Classification</span><span style="font-size: 9pt; font-family: ArialMT;">: They R useful for classification tasks where prior knowledge is available.<br />3. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Probabilistic</span><span style="font-size: 9pt; font-family: ArialMT;">: These methods provide a probabilistic approach to decision-making under uncertainty. </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">4. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Estimation</span><span style="font-size: 9pt; font-family: ArialMT;">: Supports both parameter estimation &amp; hypothesis testing.<br />5. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Assumption</span><span style="font-size: 9pt; font-family: ArialMT;">: Assumes independence between features in the case of Naïve Bayes.<br />6. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Scalability</span><span style="font-size: 9pt; font-family: ArialMT;">: Can be applied to large datasets effectively using approximate inference. </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">7. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Priors</span><span style="font-size: 9pt; font-family: ArialMT;">: Incorporates prior distributions, making it flexible in modeling.<br />8. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Inference</span><span style="font-size: 9pt; font-family: ArialMT;">: Offers methods like Markov Chain Monte Carlo (MCMC) for inference.<br />9. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Incremental</span><span style="font-size: 9pt; font-family: ArialMT;">: Suitable for incremental learning as new data arrives continuously. </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">10. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Applications</span><span style="font-size: 9pt; font-family: ArialMT;">: Commonly used in spam filtering, txt classification, &amp; medical diagnosis.</span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;"> </span></p>
+<div class="page" title="Page 4">
+<div class="page" title="Page 4">
+<div class="page" title="Page 4">&nbsp;</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div></div><div style="font-family: Calibri,Arial;font-size: 10pt;text-align: left;text-rendering: optimizelegibility;position: relative;box-sizing: border-box;padding: 3px;overflow: visible;page-break-inside: avoid;word-wrap: break-word;border-collapse: collapse;text-overflow: ellipsis;line-height: 0.9;background: white;width: 5.5cm;height: 8.5cm;border: 1px solid black"><div style="float: right;z-index: 0;color: darkgray;font-size: 40px;line-height: 0.7">2</div><div style="line-height: 0.9;transform-origin: 0 0;z-index: 2;position: relative;zoom: 0.6" class="doc-page"><div class="page" title="Page 3">
+<div class="section" style="background-color: #ffffff;">
+<div class="layoutArea">
+<div class="column">
+<p><span style="font-size: 13pt; font-family: ArialMT;">Naïve Bayes </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">1. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Classifier</span><span style="font-size: 9pt; font-family: ArialMT;">: Naïve Bayes is a family of probabilistic classifiers based on Bayes' theorem. 2. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Independence</span><span style="font-size: 9pt; font-family: ArialMT;">: Assumes independence between features, simplifying computation.<br />3. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Efficiency</span><span style="font-size: 9pt; font-family: ArialMT;">: Effective for large datasets with a high number of features.<br />4. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Estimation</span><span style="font-size: 9pt; font-family: ArialMT;">: Requires estimation of prior probabilities and conditional probabilities. </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">5. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Text Classification</span><span style="font-size: 9pt; font-family: ArialMT;">: Works well for text classification tasks like spam detection.<br />6. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Adaptability</span><span style="font-size: 9pt; font-family: ArialMT;">: Can be adapted for different types of data (e.g., Gaussian for continuous).<br />7. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Robustness</span><span style="font-size: 9pt; font-family: ArialMT;">: Offers robust performance despite the strong independence assumption.<br />8. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Speed</span><span style="font-size: 9pt; font-family: ArialMT;">: Fast to train and predict due to its simplicity.<br />9. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Zero Frequency</span><span style="font-size: 9pt; font-family: ArialMT;">: Vulnerable to zero-frequency problems, mitigated by Laplace smoothing. </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">10. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Interpretation</span><span style="font-size: 9pt; font-family: ArialMT;">: Easily interpretable, providing insight into feature importance. </span></p>
+</div>
+</div>
+</div>
+</div></div></div><div style="font-family: Calibri,Arial;font-size: 10pt;text-align: left;text-rendering: optimizelegibility;position: relative;box-sizing: border-box;padding: 3px;overflow: visible;page-break-inside: avoid;word-wrap: break-word;border-collapse: collapse;text-overflow: ellipsis;line-height: 0.9;background: white;width: 5.5cm;height: 8.5cm;border: 1px solid black"><div style="float: right;z-index: 0;color: darkgray;font-size: 40px;line-height: 0.7">3</div><div style="line-height: 0.9;transform-origin: 0 0;z-index: 2;position: relative;zoom: 0.6" class="doc-page"><div class="page" title="Page 3">
+<div class="section" style="background-color: #ffffff;">
+<div class="layoutArea">
+<div class="column">
+<p><span style="font-size: 13pt; font-family: ArialMT;">The Basic Naïve Bayes Classifier </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">1. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Classification</span><span style="font-size: 9pt; font-family: ArialMT;">: Classifies data points based on calculated probabilities for each class. </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">2. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Training</span><span style="font-size: 9pt; font-family: ArialMT;">: Utilizes training data to estimate prior and likelihood probabilities.<br />3. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Algorithm</span><span style="font-size: 9pt; font-family: ArialMT;">: Implements a straightforward algorithm that requires minimal computation. </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">4. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Evaluation</span><span style="font-size: 9pt; font-family: ArialMT;">: Features are evaluated independently, leading to efficient classification. </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">5. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Versatility</span><span style="font-size: 9pt; font-family: ArialMT;">: Suitable for both binary and multi-class classification tasks. </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">6. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Output</span><span style="font-size: 9pt; font-family: ArialMT;">: Outputs the class with the highest posterior probability.<br />7. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">High Dimensionality</span><span style="font-size: 9pt; font-family: ArialMT;">: Effective in high-dimensional feature spaces.<br />8. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">NLP Applications</span><span style="font-size: 9pt; font-family: ArialMT;">: Commonly applied in natural language processing (NLP) applications. </span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="page" title="Page 4">
+<div class="section" style="background-color: #ffffff;">
+<div class="layoutArea">
+<div class="column">
+<p><span style="font-size: 9pt; font-family: ArialMT;">9. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Dependence</span><span style="font-size: 9pt; font-family: ArialMT;">: Performance can be limited by feature dependence.<br />10. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Baseline</span><span style="font-size: 9pt; font-family: ArialMT;">: Often serves as a baseline model for comparison with more complex algorithms. </span></p>
+</div>
+</div>
+</div>
+</div></div></div><div style="font-family: Calibri,Arial;font-size: 10pt;text-align: left;text-rendering: optimizelegibility;position: relative;box-sizing: border-box;padding: 3px;overflow: visible;page-break-inside: avoid;word-wrap: break-word;border-collapse: collapse;text-overflow: ellipsis;line-height: 0.9;background: white;width: 5.5cm;height: 8.5cm;border: 1px solid black"><div style="float: right;z-index: 0;color: darkgray;font-size: 40px;line-height: 0.7">4</div><div style="line-height: 0.9;transform-origin: 0 0;z-index: 2;position: relative;zoom: 0.6" class="doc-page"><div class="page" title="Page 4">
+<div class="section" style="background-color: #ffffff;">
+<div class="layoutArea">
+<div class="column">
+<p><span style="font-size: 13pt; font-family: ArialMT;">Naïve Bayes Induction for Numeric Attributes </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">1. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Adaptation</span><span style="font-size: 9pt; font-family: ArialMT;">: Adapts the Naïve Bayes classifier to handle continuous attributes.<br />2. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Assumption</span><span style="font-size: 9pt; font-family: ArialMT;">: Assumes a specific distribution (often Gaussian) for numeric features.<br />3. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Estimation</span><span style="font-size: 9pt; font-family: ArialMT;">: Estimates mean and variance from the training data for each class.<br />4. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Conversion</span><span style="font-size: 9pt; font-family: ArialMT;">: Converts numeric values into probabilities using the assumed distribution.<br />5. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Mixed Data</span><span style="font-size: 9pt; font-family: ArialMT;">: Enables effective classification in mixed datasets (both categorical and numeric). </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">6. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Efficiency</span><span style="font-size: 9pt; font-family: ArialMT;">: Simple and computationally efficient for numeric data.<br />7. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Robustness</span><span style="font-size: 9pt; font-family: ArialMT;">: Robust against irrelevant features due to independence assumptions.<br />8. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Combination</span><span style="font-size: 9pt; font-family: ArialMT;">: Can be combined with other models for better performance.<br />9. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Incremental Learning</span><span style="font-size: 9pt; font-family: ArialMT;">: Supports incremental learning by updating parameters with new data. </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">10. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Performance</span><span style="font-size: 9pt; font-family: ArialMT;">: Performance may degrade if the normality assumption is violated. </span></p>
+</div>
+</div>
+</div>
+</div></div></div><div style="font-family: Calibri,Arial;font-size: 10pt;text-align: left;text-rendering: optimizelegibility;position: relative;box-sizing: border-box;padding: 3px;overflow: visible;page-break-inside: avoid;word-wrap: break-word;border-collapse: collapse;text-overflow: ellipsis;line-height: 0.9;background: white;width: 5.5cm;height: 8.5cm;border: 1px solid black"><div style="float: right;z-index: 0;color: darkgray;font-size: 40px;line-height: 0.7">5</div><div style="line-height: 0.9;transform-origin: 0 0;z-index: 2;position: relative;zoom: 0.6" class="doc-page"><div class="page" title="Page 4">
+<div class="section" style="background-color: #ffffff;">
+<div class="layoutArea">
+<div class="column">
+<p><span style="font-size: 13pt; font-family: ArialMT;">Laplace Correction </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">1. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Smoothing</span><span style="font-size: 9pt; font-family: ArialMT;">: A technique to smooth probability estimates in the presence of zero counts.<br />2. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Adjustment</span><span style="font-size: 9pt; font-family: ArialMT;">: Adds a small constant (usually one) to each count in the probability calculation.<br />3. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Zero Probabilities</span><span style="font-size: 9pt; font-family: ArialMT;">: Prevents zero probabilities in classification, allowing all classes to be represented. </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">4. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Overfitting</span><span style="font-size: 9pt; font-family: ArialMT;">: Enhances the robustness of models against overfitting.<br />5. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Multi-class</span><span style="font-size: 9pt; font-family: ArialMT;">: Improves performance, especially in multi-class scenarios.<br />6. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Sample Size</span><span style="font-size: 9pt; font-family: ArialMT;">: Works well with small sample sizes and sparse datasets.<br />7. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Application</span><span style="font-size: 9pt; font-family: ArialMT;">: Applicable to various probability estimation methods beyond Naïve Bayes.<br />8. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Balance</span><span style="font-size: 9pt; font-family: ArialMT;">: Balances prior knowledge with observed data for better generalization.<br />9. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Extension</span><span style="font-size: 9pt; font-family: ArialMT;">: Can be extended to multi-dimensional distributions. </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">10. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Implementation</span><span style="font-size: 9pt; font-family: ArialMT;">: Simple to implement and widely used in practice. </span></p>
+</div>
+</div>
+</div>
+</div></div></div><div style="font-family: Calibri,Arial;font-size: 10pt;text-align: left;text-rendering: optimizelegibility;position: relative;box-sizing: border-box;padding: 3px;overflow: visible;page-break-inside: avoid;word-wrap: break-word;border-collapse: collapse;text-overflow: ellipsis;line-height: 0.9;background: white;width: 5.5cm;height: 8.5cm;border: 1px solid black"><div style="float: right;z-index: 0;color: darkgray;font-size: 40px;line-height: 0.7">6</div><div style="line-height: 0.9;transform-origin: 0 0;z-index: 2;position: relative;zoom: 0.6" class="doc-page"><div class="page" title="Page 5">
+<div class="section" style="background-color: #ffffff;">
+<div class="layoutArea">
+<div class="column">
+<p><span style="font-size: 13pt; font-family: ArialMT;">Support Vector Machines </span></p>
+<ol style="list-style-type: decimal;">
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Classifier</span><span style="font-size: 9pt; font-family: ArialMT;">: Support Vector Machines (SVM) are supervised learning models for classification and regression tasks. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Maximize Margin</span><span style="font-size: 9pt; font-family: ArialMT;">: They work by finding a hyperplane that maximizes the margin between different classes. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Kernel Trick</span><span style="font-size: 9pt; font-family: ArialMT;">: SVM employs the kernel trick to handle non-linear data efficiently. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Support Vectors</span><span style="font-size: 9pt; font-family: ArialMT;">: The algorithm relies on support vectors, the data points closest to the hyperplane. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Regularization</span><span style="font-size: 9pt; font-family: ArialMT;">: Includes regularization parameters to control overfitting. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Flexibility</span><span style="font-size: 9pt; font-family: ArialMT;">: Flexible in handling high-dimensional data and various feature spaces. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Applications</span><span style="font-size: 9pt; font-family: ArialMT;">: Widely used in image classification, bioinformatics, and text categorization. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Efficiency</span><span style="font-size: 9pt; font-family: ArialMT;">: Computationally efficient for small to medium-sized datasets. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Interpretation</span><span style="font-size: 9pt; font-family: ArialMT;">: Less interpretable compared to decision trees but offers high accuracy. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Ensemble</span><span style="font-size: 9pt; font-family: ArialMT;">: Can be integrated into ensemble methods for improved performance. </span></p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div></div></div><div style="font-family: Calibri,Arial;font-size: 10pt;text-align: left;text-rendering: optimizelegibility;position: relative;box-sizing: border-box;padding: 3px;overflow: visible;page-break-inside: avoid;word-wrap: break-word;border-collapse: collapse;text-overflow: ellipsis;line-height: 0.9;background: white;width: 5.5cm;height: 8.5cm;border: 1px solid black"><div style="float: right;z-index: 0;color: darkgray;font-size: 40px;line-height: 0.7">7</div><div style="line-height: 0.9;transform-origin: 0 0;z-index: 2;position: relative;zoom: 0.6" class="doc-page"><div class="page" title="Page 5">
+<div class="section" style="background-color: #ffffff;">
+<div class="layoutArea">
+<div class="column">
+<ol style="list-style-type: decimal;">
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 13pt; font-family: ArialMT;">SVM in Pattern Recognition </span></p>
+</li>
+</ol>
+<ol style="list-style-type: decimal;">
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Adaptation</span><span style="font-size: 9pt; font-family: ArialMT;">: SVMs adapt well to various pattern recognition tasks, providing high accuracy. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Non-linearity</span><span style="font-size: 9pt; font-family: ArialMT;">: Effective in capturing non-linear relationships in data using kernels. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Robustness</span><span style="font-size: 9pt; font-family: ArialMT;">: Robust against overfitting, particularly in high-dimensional spaces. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Feature Selection</span><span style="font-size: 9pt; font-family: ArialMT;">: Supports feature selection through its inherent mechanism of focusing on support vectors. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Generalization</span><span style="font-size: 9pt; font-family: ArialMT;">: Aims for good generalization to unseen data through proper margin maximization. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Noise Tolerance</span><span style="font-size: 9pt; font-family: ArialMT;">: Exhibits tolerance to noise and irrelevant features. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Training</span><span style="font-size: 9pt; font-family: ArialMT;">: Requires careful training and parameter tuning for optimal results. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Extensions</span><span style="font-size: 9pt; font-family: ArialMT;">: Extensions include multi-class SVMs for handling multiple classes. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Efficiency</span><span style="font-size: 9pt; font-family: ArialMT;">: Can become computationally expensive for very large datasets. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Evaluation</span><span style="font-size: 9pt; font-family: ArialMT;">: Performance evaluation is crucial to assess model effectiveness. </span></p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div></div></div><div style="font-family: Calibri,Arial;font-size: 10pt;text-align: left;text-rendering: optimizelegibility;position: relative;box-sizing: border-box;padding: 3px;overflow: visible;page-break-inside: avoid;word-wrap: break-word;border-collapse: collapse;text-overflow: ellipsis;line-height: 0.9;background: white;width: 5.5cm;height: 8.5cm;border: 1px solid black"><div style="float: right;z-index: 0;color: darkgray;font-size: 40px;line-height: 0.7">8</div><div style="line-height: 0.9;transform-origin: 0 0;z-index: 2;position: relative;zoom: 0.6" class="doc-page"><div class="page" title="Page 5">
+<div class="section" style="background-color: #ffffff;">
+<div class="layoutArea">
+<div class="column">
+<ol style="list-style-type: decimal;">
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 13pt; font-family: ArialMT;">SVM Optimization </span></p>
+</li>
+</ol>
+<ol style="list-style-type: decimal;" start="8">
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Objective</span><span style="font-size: 9pt; font-family: ArialMT;">: The optimization problem aims to maximize the margin between classes. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Lagrange Multipliers</span><span style="font-size: 9pt; font-family: ArialMT;">: Involves the use of Lagrange multipliers to form a dual optimization problem. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Constraints</span><span style="font-size: 9pt; font-family: ArialMT;">: Incorporates constraints related to class labels and margins. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Quadratic Programming</span><span style="font-size: 9pt; font-family: ArialMT;">: The optimization can be framed as a quadratic programming problem. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Algorithms</span><span style="font-size: 9pt; font-family: ArialMT;">: Various algorithms exist for solving the SVM optimization problem efficiently. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Kernel Functions</span><span style="font-size: 9pt; font-family: ArialMT;">: Choice of kernel function significantly impacts the optimization outcome. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Regularization</span><span style="font-size: 9pt; font-family: ArialMT;">: Incorporates regularization terms to avoid overfitting.</span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Convergence</span><span style="font-size: 9pt; font-family: ArialMT;">: The optimization algorithm must ensure convergence to the optimal solution.</span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<div class="page" title="Page 6">
+<div class="section" style="background-color: #ffffff;">
+<div class="layoutArea">
+<div class="column">&nbsp;</div>
+</div>
+</div>
+</div>
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Gradient Descent</span><span style="font-size: 9pt; font-family: ArialMT;">: May utilize gradient descent methods for efficient optimization.</span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: ArialMT;"> </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Implementation</span><span style="font-size: 9pt; font-family: ArialMT;">: Practical implementations require careful tuning of hyperparameters. </span></p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div></div></div><div style="font-family: Calibri,Arial;font-size: 10pt;text-align: left;text-rendering: optimizelegibility;position: relative;box-sizing: border-box;padding: 3px;overflow: visible;page-break-inside: avoid;word-wrap: break-word;border-collapse: collapse;text-overflow: ellipsis;line-height: 0.9;background: white;width: 5.5cm;height: 8.5cm;border: 1px solid black"><div style="float: right;z-index: 0;color: darkgray;font-size: 40px;line-height: 0.7">9</div><div style="line-height: 0.9;transform-origin: 0 0;z-index: 2;position: relative;zoom: 0.6" class="doc-page"><div class="page" title="Page 6">
+<div class="section" style="background-color: #ffffff;">
+<div class="layoutArea">
+<div class="column">
+<ol style="list-style-type: none;" start="0">
+<li>
+<p><span style="font-size: 13pt; font-family: ArialMT;">Applications of SVM </span></p>
+</li>
+</ol>
+<ol style="list-style-type: decimal;">
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Text Classification</span><span style="font-size: 9pt; font-family: ArialMT;">: SVMs are effective in text classification tasks, such as spam detection and sentiment analysis. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Image Recognition</span><span style="font-size: 9pt; font-family: ArialMT;">: Used in image recognition for identifying objects and patterns in images. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Biological Data</span><span style="font-size: 9pt; font-family: ArialMT;">: Applicable in bioinformatics for classifying genes and proteins based on expression data. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Face Detection</span><span style="font-size: 9pt; font-family: ArialMT;">: Employed in face detection systems to differentiate between faces and non-faces. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Market Prediction</span><span style="font-size: 9pt; font-family: ArialMT;">: Utilized in financial market prediction and stock classification. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Medical Diagnosis</span><span style="font-size: 9pt; font-family: ArialMT;">: Applied in medical diagnosis to classify diseases based on patient data. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Anomaly Detection</span><span style="font-size: 9pt; font-family: ArialMT;">: Effective for detecting anomalies or outliers in various datasets. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Robotics</span><span style="font-size: 9pt; font-family: ArialMT;">: Used in robotics for decision-making and pattern recognition tasks. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Speech Recognition</span><span style="font-size: 9pt; font-family: ArialMT;">: SVMs are involved in speech recognition for classifying phonemes. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Multimedia Analysis</span><span style="font-size: 9pt; font-family: ArialMT;">: Applicable in multimedia content analysis for categorizing videos and audio. </span></p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div></div></div><div style="font-family: Calibri,Arial;font-size: 10pt;text-align: left;text-rendering: optimizelegibility;position: relative;box-sizing: border-box;padding: 3px;overflow: visible;page-break-inside: avoid;word-wrap: break-word;border-collapse: collapse;text-overflow: ellipsis;line-height: 0.9;background: white;width: 5.5cm;height: 8.5cm;border: 1px solid black"><div style="float: right;z-index: 0;color: darkgray;font-size: 40px;line-height: 0.7">10</div><div style="line-height: 0.9;transform-origin: 0 0;z-index: 2;position: relative;zoom: 0.6" class="doc-page"><div class="page" title="Page 8">
+<div class="section" style="background-color: #ffffff;">
+<div class="layoutArea">
+<div class="column">
+<p><span style="font-size: 18pt; font-family: ArialMT;">About Statistical Pattern Recognition </span></p>
+<ol style="list-style-type: decimal;">
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Definition</span><span style="font-size: 9pt; font-family: ArialMT;">: Statistical Pattern Recognition involves the use of statistical techniques to recognize patterns and regularities in data. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Approach</span><span style="font-size: 9pt; font-family: ArialMT;">: It can be divided into supervised (labeled data) and unsupervised (unlabeled data) learning methods. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Core Objective</span><span style="font-size: 9pt; font-family: ArialMT;">: The main goal is to assign labels to input data based on statistical models. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Applications</span><span style="font-size: 9pt; font-family: ArialMT;">: It is applied in speech recognition, image processing, medical diagnosis, and finance. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Techniques</span><span style="font-size: 9pt; font-family: ArialMT;">: Methods include classification, regression, clustering, and dimensionality reduction. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Probabilistic Models</span><span style="font-size: 9pt; font-family: ArialMT;">: It relies on probabilistic models, such as Bayesian methods, for making predictions. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Feature Selection</span><span style="font-size: 9pt; font-family: ArialMT;">: Effective selection of features is crucial for improving model performance. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Decision Theory</span><span style="font-size: 9pt; font-family: ArialMT;">: Decision-making is based on minimizing the expected cost of incorrect classifications. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Distance Measures</span><span style="font-size: 9pt; font-family: ArialMT;">: Distance measures like Euclidean distance play an important role in many algorithms. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Pattern Analysis</span><span style="font-size: 9pt; font-family: ArialMT;">: It involves statistical inference to find meaningful patterns in large datasets. </span></p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div></div></div><div style="font-family: Calibri,Arial;font-size: 10pt;text-align: left;text-rendering: optimizelegibility;position: relative;box-sizing: border-box;padding: 3px;overflow: visible;page-break-inside: avoid;word-wrap: break-word;border-collapse: collapse;text-overflow: ellipsis;line-height: 0.9;background: white;width: 5.5cm;height: 8.5cm;border: 1px solid black"><div style="float: right;z-index: 0;color: darkgray;font-size: 40px;line-height: 0.7">11</div><div style="line-height: 0.9;transform-origin: 0 0;z-index: 2;position: relative;zoom: 0.6" class="doc-page"><div class="page" title="Page 8">
+<div class="section" style="background-color: #ffffff;">
+<div class="layoutArea">
+<div class="column">
+<p><span style="font-size: 18pt; font-family: ArialMT;">Classification and Regression </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">1. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Classification</span><span style="font-size: 9pt; font-family: ArialMT;">: Assigns input data to predefined categories (discrete outputs), like email being spam or not. 2. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Regression</span><span style="font-size: 9pt; font-family: ArialMT;">: Predicts continuous values, such as predicting house prices based on historical data.<br />3. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Supervised Learning</span><span style="font-size: 9pt; font-family: ArialMT;">: Both methods require labeled data to train the model, making them part of supervised </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">learning.<br />4. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Loss Functions</span><span style="font-size: 9pt; font-family: ArialMT;">: Classification typically uses cross-entropy loss, while regression often uses mean squared </span></p>
+</div>
+</div>
+<div class="layoutArea">
+<div class="column">
+<p><span style="font-size: 9pt; font-family: ArialMT;">error.</span></p>
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Linear Models</span><span style="font-size: 9pt; font-family: ArialMT;">: Linear models like logistic regression (classification) and linear regression (regression) are foundational methods.</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="page" title="Page 9">
+<div class="section" style="background-color: #ffffff;">
+<div class="layoutArea">
+<div class="column">
+<ol style="list-style-type: decimal;" start="5">
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Non-linear Models</span><span style="font-size: 9pt; font-family: ArialMT;">: Non-linear classifiers (e.g., decision trees, neural networks) and regressors capture complex relationships. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Overfitting</span><span style="font-size: 9pt; font-family: ArialMT;">: Both tasks face overfitting challenges if models are too complex, leading to poor generalization on new data. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Decision Boundaries</span><span style="font-size: 9pt; font-family: ArialMT;">: Classification focuses on creating decision boundaries to separate different classes. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Example Algorithms</span><span style="font-size: 9pt; font-family: ArialMT;">: SVMs, decision trees for classification; polynomial regression, ridge regression for </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">regression tasks. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Evaluation Metrics</span><span style="font-size: 9pt; font-family: ArialMT;">: Common metrics include accuracy for classification and root mean square error (RMSE) for </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">regression. </span></p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div></div></div><div style="font-family: Calibri,Arial;font-size: 10pt;text-align: left;text-rendering: optimizelegibility;position: relative;box-sizing: border-box;padding: 3px;overflow: visible;page-break-inside: avoid;word-wrap: break-word;border-collapse: collapse;text-overflow: ellipsis;line-height: 0.9;background: white;width: 5.5cm;height: 8.5cm;border: 1px solid black"><div style="float: right;z-index: 0;color: darkgray;font-size: 40px;line-height: 0.7">12</div><div style="line-height: 0.9;transform-origin: 0 0;z-index: 2;position: relative;zoom: 0.6" class="doc-page"><div class="page" title="Page 9">
+<div class="section" style="background-color: #ffffff;">
+<div class="layoutArea">
+<div class="column">
+<p><span style="font-size: 18pt; font-family: ArialMT;">Pre-processing and Feature Extraction </span></p>
+<ol style="list-style-type: decimal;">
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Pre-processing</span><span style="font-size: 9pt; font-family: ArialMT;">: Involves cleaning and transforming raw data into a usable format for analysis. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Techniques</span><span style="font-size: 9pt; font-family: ArialMT;">: Common pre-processing techniques include normalization, data scaling, and handling missing </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">values. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Noise Reduction</span><span style="font-size: 9pt; font-family: ArialMT;">: Pre-processing often involves removing noise from the data to improve accuracy. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Data Transformation</span><span style="font-size: 9pt; font-family: ArialMT;">: Techniques like logarithmic transformations and one-hot encoding are used to convert </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">data into a better form for models. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Feature Extraction</span><span style="font-size: 9pt; font-family: ArialMT;">: The process of deriving new, informative features from raw data to improve model </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">performance. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Dimensionality Reduction</span><span style="font-size: 9pt; font-family: ArialMT;">: Methods like PCA reduce the number of features while preserving important </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">information. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Feature Scaling</span><span style="font-size: 9pt; font-family: ArialMT;">: Ensuring that features are on the same scale (e.g., 0-1) is critical for many machine learning </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">algorithms. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Outlier Handling</span><span style="font-size: 9pt; font-family: ArialMT;">: Removing or adjusting outliers during pre-processing can improve model accuracy. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Data Augmentation</span><span style="font-size: 9pt; font-family: ArialMT;">: In tasks like image classification, data augmentation techniques (e.g., flipping, rotating) are </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">used to increase dataset diversity. </span></p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div class="page" title="Page 10">
+<div class="section" style="background-color: #ffffff;">
+<div class="layoutArea">
+<div class="column">
+<p><span style="font-size: 9pt; font-family: ArialMT;">10. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Quality of Data</span><span style="font-size: 9pt; font-family: ArialMT;">: The performance of machine learning models is often dependent on the quality of pre- processing and feature extraction. </span></p>
+</div>
+</div>
+</div>
+</div></div></div><div style="font-family: Calibri,Arial;font-size: 10pt;text-align: left;text-rendering: optimizelegibility;position: relative;box-sizing: border-box;padding: 3px;overflow: visible;page-break-inside: avoid;word-wrap: break-word;border-collapse: collapse;text-overflow: ellipsis;line-height: 0.9;background: white;width: 5.5cm;height: 8.5cm;border: 1px solid black"><div style="float: right;z-index: 0;color: darkgray;font-size: 40px;line-height: 0.7">13</div><div style="line-height: 0.9;transform-origin: 0 0;z-index: 2;position: relative;zoom: 0.6" class="doc-page"><div class="page" title="Page 10">
+<div class="section" style="background-color: #ffffff;">
+<div class="layoutArea">
+<div class="column">
+<p><span style="font-size: 18pt; font-family: ArialMT;">The Curse of Dimensionality </span></p>
+<ol style="list-style-type: decimal;">
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Definition</span><span style="font-size: 9pt; font-family: ArialMT;">: As the number of dimensions increases, data becomes sparse, and models become more prone to overfitting. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Data Sparsity</span><span style="font-size: 9pt; font-family: ArialMT;">: In high-dimensional spaces, the volume increases exponentially, making the data points sparse. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Distance Metrics</span><span style="font-size: 9pt; font-family: ArialMT;">: Traditional distance metrics like Euclidean distance become less meaningful in high- </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">dimensional spaces. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Overfitting</span><span style="font-size: 9pt; font-family: ArialMT;">: High-dimensional models are likely to memorize noise in the data rather than learn general patterns. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Generalization</span><span style="font-size: 9pt; font-family: ArialMT;">: Models may struggle to generalize from high-dimensional data because each dimension </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">increases the need for more data. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Feature Reduction</span><span style="font-size: 9pt; font-family: ArialMT;">: Dimensionality reduction techniques like PCA and t-SNE help mitigate the curse by reducing </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">the number of features. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Interpretability</span><span style="font-size: 9pt; font-family: ArialMT;">: High-dimensional models are often difficult to interpret, making feature selection important. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Computation Complexity</span><span style="font-size: 9pt; font-family: ArialMT;">: As dimensionality increases, the computational cost of training models also </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">increases. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Curse in Clustering</span><span style="font-size: 9pt; font-family: ArialMT;">: High-dimensional data makes clustering algorithms less effective since data points appear </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">to be equally distant. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Impact on Visualization</span><span style="font-size: 9pt; font-family: ArialMT;">: High-dimensional data is difficult to visualize, often requiring projection into two or three </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">dimensions. </span></p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div></div></div><div style="font-family: Calibri,Arial;font-size: 10pt;text-align: left;text-rendering: optimizelegibility;position: relative;box-sizing: border-box;padding: 3px;overflow: visible;page-break-inside: avoid;word-wrap: break-word;border-collapse: collapse;text-overflow: ellipsis;line-height: 0.9;background: white;width: 5.5cm;height: 8.5cm;border: 1px solid black"><div style="float: right;z-index: 0;color: darkgray;font-size: 40px;line-height: 0.7">14</div><div style="line-height: 0.9;transform-origin: 0 0;z-index: 2;position: relative;zoom: 0.6" class="doc-page"><div class="page" title="Page 10">
+<div class="section" style="background-color: #ffffff;">
+<div class="layoutArea">
+<div class="column">
+<p><span style="font-size: 18pt; font-family: ArialMT;">Model Complexity </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">1. </span><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Definition</span><span style="font-size: 9pt; font-family: ArialMT;">: Model complexity refers to the number of parameters or the sophistication of a machine learning model. </span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="page" title="Page 11">
+<div class="section" style="background-color: #ffffff;">
+<div class="layoutArea">
+<div class="column">
+<ol style="list-style-type: decimal;" start="2">
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Overfitting</span><span style="font-size: 9pt; font-family: ArialMT;">: More complex models may fit the training data too well, capturing noise rather than the underlying pattern. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Underfitting</span><span style="font-size: 9pt; font-family: ArialMT;">: Simple models may underfit by not capturing the complexity of the data. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Regularization</span><span style="font-size: 9pt; font-family: ArialMT;">: Methods like L2 regularization help reduce model complexity by penalizing large coefficients. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Bias-Variance Trade-off</span><span style="font-size: 9pt; font-family: ArialMT;">: High-complexity models reduce bias but increase variance; simpler models increase </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">bias but reduce variance. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Occam&rsquo;s Razor</span><span style="font-size: 9pt; font-family: ArialMT;">: The principle that simpler models are preferred unless a more complex one significantly </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">improves performance. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Cross-validation</span><span style="font-size: 9pt; font-family: ArialMT;">: Used to determine the appropriate level of model complexity by testing on unseen data. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Interpretability</span><span style="font-size: 9pt; font-family: ArialMT;">: Simpler models are easier to interpret, while complex models like deep neural networks are </span></p>
+<p><span style="font-size: 9pt; font-family: ArialMT;">harder to explain. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Feature Engineering</span><span style="font-size: 9pt; font-family: ArialMT;">: Complex models often require more feature engineering to perform well. </span></p>
+</li>
+<li style="font-size: 9pt; font-family: ArialMT;">
+<p><span style="font-size: 9pt; font-family: Arial; font-weight: bold;">Training Time</span><span style="font-size: 9pt; font-family: ArialMT;">: More complex models generally require longer training times due to more parameters and computations. </span></p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div></div></div>
+</body>
+</html>
