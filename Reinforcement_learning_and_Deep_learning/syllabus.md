@@ -1,0 +1,94 @@
+## RLDL syllabus 
+- [ ] UNIT-I
+- [ ] Reinforcement Learning Foundation: Introduction to Reinforcement learning
+- [ ] and its terms,
+- [ ] Features and elements of RL,
+- [ ]  Defining RL Framework and Markov
+- [ ] Decision Process ,
+- [ ]  Polices,
+- [ ]  Value Functions and Bellman Equations,
+- [ ]  Exploration
+- [ ] vs.
+- [ ]  Exploitation,
+- [ ]  Code Standards and Libraries used in RL (Python/Keras/
+- [ ] Tensorflow) Tabular Methods and Q-networks: Planning through the use of
+- [ ] Dynamic Programming and Monte Carlo,
+- [ ]  Temporal-Difference learning methods
+- [ ] (TD(0),
+- [ ]  SARSA,
+- [ ]  Q-Learning),
+- [ ]  Deep Q-networks (DQN,
+- [ ]  DDQN,
+- [ ]  Dueling DQN,
+- [ ] Prioritised Experience Replay)
+
+- [ ] UNIT-II
+- [ ] Policy Optimization: Introduction to policy-based methods,
+- [ ]  Vanilla Policy
+- [ ] Gradient,
+- [ ]  REINFORCE algorithm and stochastic policy search,
+- [ ]  Actor-critic
+- [ ] methods (A2C,
+- [ ]  A3C) ,
+- [ ] Advanced policy gradient (PPO,
+- [ ]  TRPO,
+- [ ]  DDPG),
+- [ ]  Model-
+- [ ] Based RL: Model-based RL approach
+- [ ] Recent Advances and Applications: Meta-learning.
+- [ ]  Multi-Agent
+- [ ] Reinforcement Learning,
+- [ ]  Partially Observable Markov Decision Process,
+- [ ] Applying RL for real-world problems
+
+- [ ] UNIT-III
+- [ ] Introduction to Deep learning: Introduction to deep learning and its
+- [ ] application,
+- [ ] Examples of deep learning Introduction to Neural Network:
+- [ ] Introduction to Neural Network its types and application,
+- [ ] Introduction to
+- [ ] keras,
+- [ ] Introduction to ANN Perceptron and its uses,
+- [ ] Multilayer perceptron and
+- [ ] deep neural network,
+- [ ] Activation function and its working TanH
+- [ ] function,
+- [ ] sigma ,
+- [ ] relu etc ,
+- [ ] Feed forward network,
+- [ ]  Cost function,
+- [ ] Backpropagation,
+- [ ]  Gradient Descent,
+- [ ]  Regulariztion and dropout technique,
+- [ ] Batch normalization.
+- [ ] Types of Neural Network: Convolutional Neural network,
+- [ ] CNN Pooling,
+- [ ] CNN
+- [ ] Layers,
+- [ ] Flattening and Full connection,
+- [ ] Preparing a fully connected neural
+- [ ] network,
+- [ ] Introduction to RNN,
+- [ ]  Deep RNN,
+- [ ]  Long Short Term Memory,
+- [ ]  GRU,
+- [ ] Transfer Learning,
+
+- [ ] UNIT – IV
+- [ ] Deep Learning for Natural Language Processing: Introduction to NLP and
+- [ ] Vector Space Model of Semantics Word Vector Representations: Continuous
+- [ ] Skip-Gram Model,
+- [ ]  Continuous Bag-of-Words model (CBOW),
+- [ ]  Glove,
+- [ ] Evaluations and Applications in word similarity,
+- [ ]  analogy reasoning
+- [ ] Deep Learning for Computer Vision: Image segmentation,
+- [ ]  object detection,
+- [ ] automatic image captioning,
+- [ ]  Image generation with Generative adversarial
+- [ ] networks,
+- [ ]  video to text with LSTM models.
+- [ ]   Attention models for computer
+- [ ] vision tasks.
+
+
